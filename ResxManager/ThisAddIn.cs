@@ -30,7 +30,14 @@ namespace ResxManager
             this.Startup += new System.EventHandler(ThisAddIn_Startup);
             this.Shutdown += new System.EventHandler(ThisAddIn_Shutdown);
         }
-        
+
         #endregion
+
+        //protected override Microsoft.Office.Core.IRibbonExtensibility CreateRibbonExtensibilityObject()
+        //{
+        //    RibbonResxManager ribbonResxManager = new RibbonResxManager();
+        //    ribbonResxManager.
+        //    return ribbonResxManager;
+        //}
     }
 }
